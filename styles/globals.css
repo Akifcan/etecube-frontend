@@ -1,0 +1,35 @@
+:root {
+    --background: #d7cccc;
+}
+
+body {
+    background-color: var(--background) !important;
+}
+
+.container {
+    width: min(80%, 1400px);
+    margin: auto;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.column {
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+.spacer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.form-group {
+    width: 100%;
+}
